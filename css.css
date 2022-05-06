@@ -16,4 +16,18 @@ body {
   border-radius: 25px;
   background: transparent;
   border: 4px solid #fff;
+  overflow: hidden;
 }
+.down:before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  left: 50%;
+  top: 10px;
+  transform: translate(-50%,0);
+  animation: animate 1$ linear infinite;
+}
+  
