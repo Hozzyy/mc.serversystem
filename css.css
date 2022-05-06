@@ -30,4 +30,33 @@ body {
   transform: translate(-50%,0);
   animation: animate 1$ linear infinite;
 }
+.down:after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  left: 50%;
+  top: 10px;
+  transform: translate(-50%,0);
+  border-radius: 3px;
+}
+@keyframes animate {
+  0%
+  {
+    transform: translate(-50%,20px;
+    opacity: 0;
+  }
+  80%
+  {
+    transform: translate(-50%,60px;
+    opacity: 0;
+  }
+  100% 
+  {
+    transform: translate(-50%,100px;
+    opacity: 0;
+  }
+}
   
